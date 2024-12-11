@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+    
+</head>
+<body>
+    <h1>Cocktail sort</h1>
+    
+    <div class="info">
+        <button id="toggleButton">Информация</button>
+        <p>
+            <ol id="toggleInfo">
+                <li> Вводить только числа </li>
+                <li> Каждый следующий элемент массива должен быть отделен запятой </li>
+                <li> Дробные числа записываются в виде десятичных дробей(через точку)</li>
+                <li> Можно записывать отрицательные числа</li>
+            </ol>
+        </p>
+    </div>
+    
+    
+    <div class="array">
+        <form> 
+            <p> Введите массив чисел: </p>
+            <input type = "text" id="unsort">
+        </form>
+        <button id = "process"> Cортировать </button>
+        <p id="sort"></p>
+    </div>
+</body>
+</html>
