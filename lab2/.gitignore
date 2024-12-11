@@ -53,10 +53,6 @@ Thumbs.db
 *.sln.docstates
 settings.json
 
-# Docker
-/docker-compose.override.yml
-Dockerfile
-
 # Прочее
 wwwroot/  # Если вы не хотите добавлять эту папку в репозиторий
 *.cab
