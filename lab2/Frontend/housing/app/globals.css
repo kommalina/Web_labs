@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5,1fr); 
+    width: 100%;
+    padding-top: 30px;
+    gap: 30px 20px;
+}
+
+.housing-card {
+    background: linear-gradient(135deg, #f3f4f6, #bdc3c7); 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.housing-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card_price {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2C3E50;
+    display: flex;
+    align-items: center;
+}
+
+.card_price::after {
+    content: '$';
+    margin-right: 5px;
+    font-size: 18px;
+    color: #0c2578; 
+}
+
+.card_buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.housing_modal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card_title {
+    margin-right: 20px;
+    max-width: 80%;
+    white-space: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #34495E; 
+}
+
+.addHousingButton {
+    font-size: 18px; 
+    padding: 16px 32px;
+    background-color: #7a65a5; 
+    color: white; 
+    border: none; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.2s; 
+    margin-top: 40px; 
+    width: 325px; 
+    height: auto;
+    text-align: center; 
+    white-space: nowrap; 
+    display: block; 
+}
+
+.addHousingButton:hover {
+    transform: scale(1.05);  
+}
+
+
+

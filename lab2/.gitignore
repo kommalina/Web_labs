@@ -1,0 +1,74 @@
+# ASP.NET Core
+/backend/bin/
+/backend/obj/
+/backend/.vs/
+
+# Entity Framework
+/backend/Migrations/
+
+# Базы данных
+/backend/*.mdf
+/backend/*.ldf
+
+# Конфигурационные файлы
+/backend/appsettings.*.json
+/backend/appsettings.json
+
+# Node.js и Next.js
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.npm/
+/frontend/.yarn/
+/frontend/.yarn-cache/
+.npm/
+/.npm-cache/
+.yarn/
+/.yarn-cache/
+/.yarnrc.yml
+.pnp.*
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Статические файлы Next.js (build и кеш)
+/frontend/.next/
+
+# Антивирус и временные файлы
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE/редакторы
+.vscode/
+.idea/
+.vs/
+.vsconfig/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+settings.json
+
+# Docker
+/docker-compose.override.yml
+Dockerfile
+
+# Прочее
+wwwroot/  # Если вы не хотите добавлять эту папку в репозиторий
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Прочие временные файлы
+*.bak
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.tmp
+
